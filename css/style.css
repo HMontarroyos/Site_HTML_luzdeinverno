@@ -18,21 +18,21 @@
 /* HEADER */
 
 .upper_bar {
-    border-bottom: 1px solid rgb(204, 204, 204);  
-    color: white;
+    background: rgb(231, 227, 227);
+    padding: 10px;
  }
 
 .text_upper_bar {
     font-size: 20px;
     text-align: center;
-    color: bisque;
+    color: white;
 }
 
 .img_header{
     background-position: center;
     width: 100%;
     position: relative;
-    padding: 140px 0 200px 0;
+    padding: 200px 0;
     background-image: url('../img/fundomenu.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,4 +160,118 @@ div.group-icons a{
     font-size: 42px;
     display: inline-block;
     margin:15px 10px ;
+}
+
+/* CONTATO FORMULARIO */ 
+
+.formulario form{
+    margin-top: 10px;
+}
+
+.formulario h2{
+    text-align: center;
+    color: #ACAC9D;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-left: 8px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding:10px;
+    resize: none;
+}
+
+section.contato {
+    min-height: 600px;
+    padding: 30px 0;
+}
+
+section.contato .w50,
+section.contato .w100{
+   padding: 0 10px ;
+}
+
+.w60{
+    width: 60%;
+    float: left;
+}
+
+.w40{
+    width: 40%;
+    float: left;
+}
+
+.Enviar {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    width: 100%;
+}
+.Enviar:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.Enviar:active {
+	position:relative;
+	top:1px;
+}
+
+.tags-form h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.tags-form h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.tags-form p {
+    font-weight: lighter;
+}
+
+.tags-form p.tag-contato{
+    color: white;
+    background: rgb(231, 227, 227);;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.tags-form p.tag-contato:hover{
+    color: rgb(231, 227, 227);;
+    background:white;
+    text-align: center;
+    margin-top: 8px;
+    padding: 20px 4px;
+}
+
+.text_linkedin{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(231, 227, 227);; 
 }
